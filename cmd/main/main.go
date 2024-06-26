@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/jersonmartinez/OpenWebinars_Website_Go/internal/config"
-	"github.com/jersonmartinez/OpenWebinars_Website_Go/internal/routes"
+	"github.com/jersonmartinez/Go_Static_Web_Project/internal/config"
+	"github.com/jersonmartinez/Go_Static_Web_Project/internal/routes"
 )
 
 func main() {
