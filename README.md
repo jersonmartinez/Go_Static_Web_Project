@@ -7,7 +7,7 @@ git clone https://github.com/jersonmartinez/Go_Static_Web_Project.git
 cd Go_Static_Web_Project
 ```
 
-### Run Project
+### Run Project with Docker
 
 ```bash
 docker-compose up -d
