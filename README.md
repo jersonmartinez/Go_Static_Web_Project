@@ -25,3 +25,5 @@ ff903f9e9939   go_static_web_project-app   "air -c .air.toml"   6 seconds ago   
 ```
 
 Open [127.0.0.1:8585](http://127.0.0.1:8585)
+
+![image](https://github.com/jersonmartinez/Go_Static_Web_Project/assets/7296281/773701fd-317f-41d7-aa01-89e690d14a5b)
