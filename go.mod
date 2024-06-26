@@ -1,4 +1,4 @@
-module github.com/jersonmartinez/OpenWebinars_Website_Go
+module github.com/jersonmartinez/Go_Static_Web_Project
 
 go 1.20
 

@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/jersonmartinez/OpenWebinars_Website_Go/internal/models"
+	"github.com/jersonmartinez/Go_Static_Web_Project/internal/models"
 )
 
 func renderTemplate(w http.ResponseWriter, tmplFile string, data interface{}) {
@@ -27,7 +27,7 @@ func renderTemplate(w http.ResponseWriter, tmplFile string, data interface{}) {
 
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
 	data := models.PageData{
-		Title:   "OpenWebinars",
+		Title:   "WebSite",
 		Author:  "Jerson Martínez",
 		Welcome: "Este es un curso que impactará en tus proyectos webs actuales y futuros.",
 	}

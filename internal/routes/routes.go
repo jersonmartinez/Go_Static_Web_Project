@@ -3,7 +3,7 @@ package routes
 import (
 	"net/http"
 
-	"github.com/jersonmartinez/OpenWebinars_Website_Go/internal/handlers"
+	"github.com/jersonmartinez/Go_Static_Web_Project/internal/handlers"
 )
 
 func RegisterRoutes() {
