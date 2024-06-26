@@ -28,7 +28,7 @@ func renderTemplate(w http.ResponseWriter, tmplFile string, data interface{}) {
 func HomeHandler(w http.ResponseWriter, r *http.Request) {
 	data := models.PageData{
 		Title:   "WebSite",
-		Author:  "Jerson Martínez",
+		Author:  "Author",
 		Welcome: "Este es un curso que impactará en tus proyectos webs actuales y futuros.",
 	}
 
