@@ -1,4 +1,4 @@
-# OpenWebinars_Website_Go
+# Static Website Go
 
 ### Manejo de peticiones HTTP y respuestas
 
@@ -136,7 +136,7 @@ func renderTemplate(w http.ResponseWriter, tmplFile string, data PageData) {
 
 func homeHandler(w http.ResponseWriter, r *http.Request) {
 	data := PageData{
-		Title: "OpenWebinars / Jerson",
+		Title: "WebSite | Jerson",
 		Message: template.HTML(`
 			La plataforma donde encontrarás el curso <b>"Mi primera página web en Go"</b> impartido por el Ing. DevOps, Jerson Martínez. Recibido por los estudiantes más inteligentes de la plataforma."
 		`),
@@ -187,9 +187,9 @@ Archivo `home.html`
             <section class="py-5 text-center container">
                 <div class="row py-lg-5">
                     <div class="col-lg-6 col-md-8 mx-auto">
-                        <!-- <h1 class="fw-light">¡Bienvenido a OpenWebinars!</h1> -->
+                        <!-- <h1 class="fw-light">¡Bienvenido a mi Web!</h1> -->
 
-                        <img src="/static/images/logo-black.svg" id="logo" class="img-fluid w-50" alt="Logo OpenWebinars"/>
+                        <img src="/static/images/logo-black.svg" id="logo" class="img-fluid w-50" alt="Logo"/>
 
                         <p class="lead text-body-secondary m-5">
                             {{ .Message }}
